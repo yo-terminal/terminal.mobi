@@ -135,7 +135,7 @@ export function Pricing() {
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             featured
-            name="Keystore"
+            name="1. Keystore"
             price=""
             description="Secure storage for sensitive information (e.g. private keys, passwords, etc.)"
             href="https://ks.terminal.mobi"
@@ -150,7 +150,7 @@ export function Pricing() {
           />
           <Plan
             // featured
-            name="Yield Optimiser"
+            name="2. Yield Optimiser"
             price=""
             description="Simplified and Secure Yield Optimization Protocol."
             href="/coming-soon"
@@ -166,7 +166,7 @@ export function Pricing() {
             // ]}
           />
           <Plan
-            name="Deepbook"
+            name="3. Deepbook"
             price=""
             description="Decentralized crypto exchange based on order book."
             href="/coming-soon"
