@@ -7,7 +7,7 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '%s - YO Terminal',
-    default: 'YO Terminal - Yield Optimization Terminal',
+    default: 'YO Terminal - Yield Optimization Terminal (YOT)',
   },
   description:
     'Most investing software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',

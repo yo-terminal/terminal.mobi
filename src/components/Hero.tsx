@@ -13,7 +13,7 @@ export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-6xl">
-      Yield{' '}
+        Yield{' '}
         <span className="relative whitespace-nowrap text-blue-600">
           <svg
             aria-hidden="true"
@@ -27,9 +27,15 @@ export function Hero() {
         </span>{' '}
         Terminal
       </h1>
+      {/* <p className="mx-auto my-10 max-w-2xl text-lg tracking-tight text-slate-700">
+        A decentralized application on the SUI blockchain that maximizes DeFi
+        yields by automating and optimizing investment strategies across various
+        protocols.
+      </p> */}
       <p className="mx-auto my-10 max-w-2xl text-lg tracking-tight text-slate-700">
-        Most investing software is accurate, but hard to use. We make the
-        opposite trade-off, and hope you don’t get audited.
+        A next-generation DeFi solution on the SUI blockchain, empowering users
+        with automated and optimized strategies for higher returns in the
+        decentralized finance ecosystem.
       </p>
       {/* <div className="my-10 flex justify-center gap-x-6">
         <Button href="/coming-soon">Research Now</Button>
