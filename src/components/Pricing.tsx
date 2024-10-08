@@ -57,6 +57,7 @@ function Plan({
   href,
   features,
   featured = false,
+  comingSoon = false,
 }: {
   name: string
   price: string
@@ -64,6 +65,7 @@ function Plan({
   href: string
   features: Array<string>
   featured?: boolean
+  comingSoon?: boolean
 }) {
   return (
     <section
@@ -99,13 +101,14 @@ function Plan({
         ))}
       </ul>
       <Button
-        href={href}
+        {...(comingSoon ? {} : { href })}
         variant={featured ? 'solid' : 'outline'}
         color="white"
         className="mt-8"
         aria-label={`Get started with the ${name} plan for ${price}`}
+        disabled={comingSoon}
       >
-        Get started
+        {comingSoon ? 'Coming Soon' : 'Get started'}
       </Button>
     </section>
   )
@@ -150,6 +153,7 @@ export function Pricing() {
           />
           <Plan
             // featured
+            comingSoon
             name="2. Yield Optimiser"
             price=""
             description="Simplified and Secure Yield Optimization Protocol."
@@ -166,6 +170,7 @@ export function Pricing() {
             // ]}
           />
           <Plan
+            comingSoon
             name="3. Deepbook"
             price=""
             description="Decentralized crypto exchange based on order book."
