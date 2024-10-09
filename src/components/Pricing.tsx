@@ -52,6 +52,7 @@ function CheckIcon({
 
 function Plan({
   name,
+  action,
   price,
   description,
   href,
@@ -60,6 +61,7 @@ function Plan({
   comingSoon = false,
 }: {
   name: string
+  action: string
   price: string
   description: string
   href: string
@@ -108,7 +110,8 @@ function Plan({
         aria-label={`Get started with the ${name} plan for ${price}`}
         disabled={comingSoon}
       >
-        {comingSoon ? 'Coming Soon' : 'Get started'}
+        {/* {comingSoon ? 'Coming Soon' : 'Get started'} */}
+        {action}
       </Button>
     </section>
   )
@@ -139,6 +142,7 @@ export function Pricing() {
           <Plan
             featured
             name="1. Keystore"
+            action='Get started'
             price=""
             description="Secure storage for sensitive information (e.g. private keys, passwords, etc.)"
             href="https://ks.terminal.mobi"
@@ -154,9 +158,11 @@ export function Pricing() {
           <Plan
             // featured
             comingSoon
-            name="2. Yield Optimiser"
+            name="2. Yield Terminal"
+            action='Coming soon'
             price=""
-            description="Simplified and Secure Yield Optimization Protocol."
+            // description="Simplified and Secure Yield Optimization Terminal."
+            description='User-Friendly and Secure Yield Optimization Terminal.'
             href="/coming-soon"
             features={[]}
             // features={[
@@ -172,6 +178,7 @@ export function Pricing() {
           <Plan
             comingSoon
             name="3. Deepbook"
+            action='Coming someday'
             price=""
             description="Decentralized crypto exchange based on order book."
             href="/coming-soon"

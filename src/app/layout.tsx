@@ -6,11 +6,11 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - YO Terminal',
-    default: 'YO Terminal - Yield Optimization Terminal (YOT)',
+    template: '%s - Yield Optimization Terminal (YOT)',
+    default: 'Yield Optimization Terminal (YOT)',
   },
   description:
-    'Most investing software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'A next-generation DeFi solution on the SUI blockchain, empowering users with automated and optimized strategies for higher returns in the decentralized finance ecosystem.',
 }
 
 const inter = Inter({
