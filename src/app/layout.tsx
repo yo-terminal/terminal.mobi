@@ -4,13 +4,21 @@ import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
 
+const title = 'Yield Optimization Terminal (YOT)';
+const description = 'A next-generation DeFi solution on the SUI blockchain, empowering users with automated and optimized strategies for higher returns in the decentralized finance ecosystem.';
+
 export const metadata: Metadata = {
   title: {
-    template: '%s - Yield Optimization Terminal (YOT)',
-    default: 'Yield Optimization Terminal (YOT)',
+    template: `%s - ${title}`,
+    default: title,
   },
-  description:
-    'A next-generation DeFi solution on the SUI blockchain, empowering users with automated and optimized strategies for higher returns in the decentralized finance ecosystem.',
+  description,
+  openGraph: {
+    title,
+    description,
+    type: 'website',
+    images: ['https://terminal.mobi/preview.png']
+  },
 }
 
 const inter = Inter({
