@@ -8,14 +8,13 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
 import comingSoon from '@/images/coming-soon.jpg'
-import keystore from '@/images/keystore2.png'
 
 const features = [
   {
     title: 'Keystore',
     description:
       "Secure storage for sensitive information (e.g. private keys, passwords, credit card details, etc.)",
-    image: keystore,
+    image: comingSoon,
   },
   {
     title: 'Yield Optimiser',

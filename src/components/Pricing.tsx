@@ -145,7 +145,7 @@ export function Pricing() {
             action='Get started'
             price=""
             description="Secure storage for sensitive information (e.g. private keys, passwords, etc.)"
-            href="https://ks.terminal.mobi"
+            href="https://keystore.terminal.mobi"
             features={[]}
             // features={[
             //   'Send 10 quotes and invoices',
