@@ -141,8 +141,27 @@ export function Pricing() {
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             featured
-            name="1. Keystore"
-            action='Get started'
+            name="1. Yield Terminal"
+            action="Get started"
+            price=""
+            // description="Simplified and Secure Yield Optimization Terminal."
+            description="User-Friendly and Secure Yield Optimization Terminal."
+            href="https://yield.terminal.mobi"
+            features={[]}
+            // features={[
+            //   'Send 25 quotes and invoices',
+            //   'Connect up to 5 bank accounts',
+            //   'Track up to 50 expenses per month',
+            //   'Automated payroll support',
+            //   'Export up to 12 reports',
+            //   'Bulk reconcile transactions',
+            //   'Track in multiple currencies',
+            // ]}
+          />
+          <Plan
+            // featured
+            name="2. Keystore"
+            action="Get started"
             price=""
             description="Secure storage for sensitive information (e.g. private keys, passwords, etc.)"
             href="https://keystore.terminal.mobi"
@@ -156,31 +175,11 @@ export function Pricing() {
             // ]}
           />
           <Plan
-            // featured
             comingSoon
-            name="2. Yield Terminal"
-            action='Coming soon'
+            name="3. Yield Strategy"
+            action="Coming soon"
             price=""
-            // description="Simplified and Secure Yield Optimization Terminal."
-            description='User-Friendly and Secure Yield Optimization Terminal.'
-            href="/coming-soon"
-            features={[]}
-            // features={[
-            //   'Send 25 quotes and invoices',
-            //   'Connect up to 5 bank accounts',
-            //   'Track up to 50 expenses per month',
-            //   'Automated payroll support',
-            //   'Export up to 12 reports',
-            //   'Bulk reconcile transactions',
-            //   'Track in multiple currencies',
-            // ]}
-          />
-          <Plan
-            comingSoon
-            name="3. Deepbook"
-            action='Coming someday'
-            price=""
-            description="Decentralized crypto exchange based on order book."
+            description="Automatically select pools with the highest yield."
             href="/coming-soon"
             features={[]}
             // features={[

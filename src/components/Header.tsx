@@ -97,7 +97,7 @@ export function Header() {
             {/* <div className="hidden md:block">
               <NavLink href="/login">Sign in</NavLink>
             </div> */}
-            <Button href="https://keystore.terminal.mobi" color="blue">
+            <Button href="https://yield.terminal.mobi" color="blue">
               <span>
                 Launch App
               </span>
